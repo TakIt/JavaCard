@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class DisplayMessageActivity extends AppCompatActivity {
-    private ArrayList<Card> cardList;
+    //private ArrayList<Card> cardList;
     Deck deck = new Deck();
     @Override
     protected void onCreate(Bundle savedInstanceState) {

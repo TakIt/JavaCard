@@ -12,7 +12,7 @@ public class Deck {
     public Deck(){
         String[]marks=new String[]{"ダイヤ","スペード","ハート","クローバー"};
         ArrayList<Card> cardList=new ArrayList<Card>();
-        Stream<Card>cardListStream= cardList.stream();
+        //Stream<Card>cardListStream= cardList.stream();
         for (int i=0;i<marks.length;i++){
             String mark=marks[i];
 

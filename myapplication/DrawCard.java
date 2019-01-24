@@ -9,14 +9,14 @@ import java.util.Scanner;
 public class DrawCard {
 
 
-    int[] nums;
-    int[]count;
+    //int[] nums;
+    //int[]count;
 
     private ArrayList<Card>cardList;
     Deck deck = new Deck();
 
-    private int num1;
-    private int num2;
+    //private int num1;
+    //private int num2;
 
     public DrawCard(){
         ArrayList<Card> cardList=new ArrayList<Card>();
