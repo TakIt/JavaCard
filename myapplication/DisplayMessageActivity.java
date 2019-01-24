@@ -21,7 +21,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_diplay_main);
 
         Intent intent = getIntent();
-        String name = intent.getStringExtra(MainActivity.EXTRA_NAME);
+        String name = intent.getStringExtra(TrumpGame.EXTRA_NAME);
         TextView textView =(TextView)findViewById(R.id.edit_name);
         
         textView.setText(name+"のカード");
