@@ -9,20 +9,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class TrumpGame extends AppCompatActivity {
-    public static void main(String args[]){
-        Name name=new Name();
-
-
-        Judg player=new Judg();
-        Judg enemy=new Judg();
-        Print NEnem=new Print();
-
-
-        name.playName();
-        player.Pdraw();
-        NEnem.Eprint();
-        enemy.Edraw();
-    }
 
     public final static String EXTRA_NAME = "com.example.myfirstapp.NAME";
 

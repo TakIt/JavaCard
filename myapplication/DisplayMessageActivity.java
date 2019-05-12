@@ -11,14 +11,12 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class DisplayMessageActivity extends AppCompatActivity {
-    //private ArrayList<Card> cardList;
     Deck deck = new Deck();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_diplay_main);
-        //setContentView(R.layout.activity_diplay_main);
 
         Intent intent = getIntent();
         String name = intent.getStringExtra(TrumpGame.EXTRA_NAME);
